@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | Alisio Tech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+    <!-- Navegación -->
+    <nav class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-wider">ALISIO<span
+                    class="text-blue-300">TECH</span></a>
+            <div class="space-x-6 hidden md:flex items-center">
+                <a href="index.html" class="hover:text-blue-300 transition">Inicio</a>
+                <a href="servicios.html" class="text-blue-300 border-b-2 border-blue-300 pb-1">Servicios</a>
+                <a href="proyectos.html" class="hover:text-blue-300 transition">Proyectos</a>
+                <a href="nosotros.html" class="hover:text-blue-300 transition">Nosotros</a>
+                <a href="contacto.html"
+                    class="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded font-semibold transition shadow">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header de la página -->
+    <header class="bg-slate-800 text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">Nuestros Servicios</h1>
+            <p class="text-xl text-slate-300 max-w-2xl mx-auto">Soluciones tecnológicas escalables construidas bajo los
+                principios de Seguridad y Privacidad desde el Diseño.</p>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-6 py-16">
+
+        <div class="grid md:grid-cols-2 gap-12 mb-20">
+            <!-- Servicio 1 -->
+            <div class="bg-white p-8 rounded-xl shadow border-l-4 border-blue-600">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-laptop-code"></i></div>
+                <h3 class="text-2xl font-bold mb-4">Desarrollo Web y Plataformas SaaS</h3>
+                <p class="text-slate-600 mb-4">Desarrollamos aplicaciones web complejas utilizando arquitecturas
+                    modernas (Vue.js, Laravel). Implementamos bases de datos multi-tenant asegurando que la información
+                    de cada cliente esté lógicamente separada y cifrada.</p>
+                <ul class="list-none space-y-2 text-slate-500 text-sm mt-4">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Paneles de administración a medida</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Integración de pasarelas de pago seguras</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Control de acceso basado en roles (RBAC)</li>
+                </ul>
+            </div>
+
+            <!-- Servicio 2 -->
+            <div class="bg-white p-8 rounded-xl shadow border-l-4 border-emerald-500">
+                <div class="text-emerald-500 text-3xl mb-4"><i class="fas fa-mobile-screen"></i></div>
+                <h3 class="text-2xl font-bold mb-4">Desarrollo de Apps Móviles</h3>
+                <p class="text-slate-600 mb-4">Creamos aplicaciones nativas y multiplataforma con Flutter. Optimizamos
+                    el consumo de APIs y gestionamos el estado de la app de forma segura, evitando la exposición de
+                    tokens o datos sensibles en el dispositivo.</p>
+                <ul class="list-none space-y-2 text-slate-500 text-sm mt-4">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Geolocalización respetuosa con la privacidad
+                    </li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Autenticación biométrica</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Almacenamiento local cifrado</li>
+                </ul>
+            </div>
+
+            <!-- Servicio 3 -->
+            <div class="bg-white p-8 rounded-xl shadow border-l-4 border-indigo-500">
+                <div class="text-indigo-500 text-3xl mb-4"><i class="fas fa-server"></i></div>
+                <h3 class="text-2xl font-bold mb-4">Redes, Sistemas y Hardware</h3>
+                <p class="text-slate-600 mb-4">Configuramos infraestructuras on-premise y en la nube (AWS, Docker).
+                    Proveemos el hardware necesario y desplegamos firewalls perimetrales (OPNsense) y VPNs (OpenVPN)
+                    para el teletrabajo seguro de tu plantilla.</p>
+                <ul class="list-none space-y-2 text-slate-500 text-sm mt-4">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Segmentación de redes corporativas</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Servidores proxy y filtrado de tráfico</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Suministro de estaciones de trabajo de alto
+                        rendimiento</li>
+                </ul>
+            </div>
+
+            <!-- Servicio 4 -->
+            <div class="bg-white p-8 rounded-xl shadow border-l-4 border-red-500">
+                <div class="text-red-500 text-3xl mb-4"><i class="fas fa-file-contract"></i></div>
+                <h3 class="text-2xl font-bold mb-4">Auditoría Normativa y Ciberseguridad</h3>
+                <p class="text-slate-600 mb-4">Alineamos tu tecnología con la legalidad. Realizamos auditorías para
+                    asegurar el cumplimiento del RGPD/LOPDGDD, elaboramos Acuerdos de Nivel de Servicio (SLA) y planes
+                    de recuperación ante desastres (DRP).</p>
+                <ul class="list-none space-y-2 text-slate-500 text-sm mt-4">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Análisis de impacto de protección de datos
+                        (EIPD)</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Gestión de copias de seguridad inmutables</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i> Asesoramiento como Encargados del Tratamiento
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 py-8 text-center">
+        <p>&copy; 2026 Alisio Tech. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | Alisio Tech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+    <!-- Navegación -->
+    <nav class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-wider">ALISIO<span
+                    class="text-blue-300">TECH</span></a>
+            <div class="space-x-6 hidden md:flex items-center">
+                <a href="index.html" class="hover:text-blue-300 transition">Inicio</a>
+                <a href="servicios.html" class="hover:text-blue-300 transition">Servicios</a>
+                <a href="proyectos.html" class="hover:text-blue-300 transition">Proyectos</a>
+                <a href="nosotros.html" class="text-blue-300 border-b-2 border-blue-300 pb-1">Nosotros</a>
+                <a href="contacto.html"
+                    class="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded font-semibold transition shadow">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-slate-800 text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">Conoce a Alisio Tech</h1>
+            <p class="text-xl text-slate-300 max-w-2xl mx-auto">Tecnología con acento canario y estándares
+                internacionales de seguridad.</p>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Historia -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl text-center">
+                <h2 class="text-3xl font-bold text-blue-900 mb-6">Nuestros Orígenes</h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">Nacimos en Santa Cruz de La Palma con una misión
+                    clara: acercar el desarrollo de software de alta calidad y la infraestructura de redes a las
+                    empresas del archipiélago. Hoy somos un equipo consolidado de entre 10 y 15 profesionales operando
+                    en un entorno híbrido.</p>
+                <p class="text-lg text-slate-600 leading-relaxed">Entendemos que el software no solo debe ser
+                    visualmente atractivo y funcional, sino que debe ser legalmente impecable. Por eso, integramos la
+                    ciberseguridad y el cumplimiento normativo en el núcleo de todos nuestros desarrollos.</p>
+            </div>
+        </section>
+
+        <!-- Estructura de la empresa (Actores) -->
+        <section class="py-16 bg-slate-100 border-y border-slate-200">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Estructura Organizativa</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+
+                    <!-- Dirección -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div
+                            class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center text-blue-600 text-2xl">
+                            <i class="fas fa-briefcase"></i></div>
+                        <h4 class="font-bold text-lg mb-2">Dirección y Estrategia</h4>
+                        <p class="text-sm text-slate-500">Asume la responsabilidad ejecutiva, la firma de contratos y
+                            aprueba los presupuestos. Son los garantes finales ante cualquier incidencia legal.</p>
+                    </div>
+
+                    <!-- Desarrollo -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div
+                            class="w-16 h-16 bg-emerald-100 rounded-full mx-auto mb-4 flex items-center justify-center text-emerald-600 text-2xl">
+                            <i class="fas fa-code"></i></div>
+                        <h4 class="font-bold text-lg mb-2">Equipo de Desarrollo</h4>
+                        <p class="text-sm text-slate-500">Ingenieros frontend y programadores móviles. Transforman las
+                            necesidades del cliente en código limpio y seguro, previniendo vulnerabilidades (OWASP).</p>
+                    </div>
+
+                    <!-- Sistemas -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div
+                            class="w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4 flex items-center justify-center text-indigo-600 text-2xl">
+                            <i class="fas fa-server"></i></div>
+                        <h4 class="font-bold text-lg mb-2">Sistemas y Redes</h4>
+                        <p class="text-sm text-slate-500">Administran servidores en la nube, configuran firewalls y
+                            gestionan las bases de datos aislando los entornos de desarrollo, pruebas y producción.</p>
+                    </div>
+
+                    <!-- Legal / Compliance -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div
+                            class="w-16 h-16 bg-red-100 rounded-full mx-auto mb-4 flex items-center justify-center text-red-600 text-2xl">
+                            <i class="fas fa-scale-balanced"></i></div>
+                        <h4 class="font-bold text-lg mb-2">Compliance / DPO</h4>
+                        <p class="text-sm text-slate-500">Área encargada de la adecuación al RGPD, la redacción de
+                            políticas de privacidad y la respuesta ante incidentes de brechas de seguridad.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 py-8 text-center">
+        <p>&copy; 2026 Alisio Tech. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
